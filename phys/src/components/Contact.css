@@ -1,16 +1,25 @@
 .contacts_container {
   background-color: #292b2c;
   display: flex;
+  flex-direction: column;
   color: aliceblue;
   justify-content: space-around;
   align-items: center;
   bottom: 0;
   padding: 1rem;
+  bottom: 0;
+  width: 100vw;
 }
 .contacts_container h1 {
   text-decoration: underline;
-  font-size: small;
+  justify-self: center;
+  font-size: medium;
 }
 .contacts_container a {
   color: aliceblue;
+}
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }

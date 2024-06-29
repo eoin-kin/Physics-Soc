@@ -21,18 +21,42 @@ export const Home = () => {
         <h1>Our Committee</h1>
         <img src="phys com.PNG" />
         <ul>
-          <li>Auditor: Raven Blok</li>
-          <li>Vice-Auditor: Aisling Kinsella</li>
-          <li>Treasurer: Elisabeth Pfeiffer</li>
-          <li>Vice-Treasurer: Oskar Sokol</li>
-          <li>Secretary: Emilijus Bielis</li>
-          <li>Special Events and Safety Officer: Niamh O'Brien</li>
-          <li>Engineering Liason: Adam Gaughran</li>
-          <li>Ordinary Committee Member: Aoife Farren</li>
-          <li>Ordinary Committee Member: Chichi Agwaraonye</li>
-          <li>Ordinary Committee Member: Tom Browne</li>
-          <li>Ordinary Committee Member: Eoin Kenny</li>
-          <li>Researcher: Jonathan O'Connor</li>
+          <li>
+            <b>Auditor:</b> Raven Blok
+          </li>
+          <li>
+            <b>Vice-Auditor:</b> Aisling Kinsella
+          </li>
+          <li>
+            <b>Treasurer:</b> Elisabeth Pfeiffer
+          </li>
+          <li>
+            <b>Vice-Treasurer:</b> Oskar Sokol
+          </li>
+          <li>
+            <b>Secretary:</b> Emilijus Bielis
+          </li>
+          <li>
+            <b>Special Events and Safety Officer:</b> Niamh O'Brien
+          </li>
+          <li>
+            <b>Engineering Liason:</b> Adam Gaughran
+          </li>
+          <li>
+            <b>Ordinary Committee Member:</b> Aoife Farren
+          </li>
+          <li>
+            <b>Ordinary Committee Member:</b> Chichi Agwaraonye
+          </li>
+          <li>
+            <b>Ordinary Committee Member:</b> Tom Browne
+          </li>
+          <li>
+            <b>Ordinary Committee Member:</b> Eoin Kenny
+          </li>
+          <li>
+            <b>Researcher:</b> Jonathan O'Connor
+          </li>
         </ul>
       </div>
       <br />

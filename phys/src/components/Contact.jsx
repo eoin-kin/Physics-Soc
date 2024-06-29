@@ -7,18 +7,28 @@ function Contact() {
     <>
       <div className="contacts_container">
         <h1>Contact Us:</h1>
-        <SocialIcon
-          url="https://instagram.com"
-          bgColor="#292b2c"
-          fgColor="aliceblue"
-        />
-        <a href="https://www.instagram.com/physicssoc/">Instagram</a>
-        <SocialIcon
-          url="https://email.com"
-          bgColor="#292b2c"
-          fgColor="aliceblue"
-        />
-        <a href="mailto:physicsoc@socs.universityofgalway.ie">Email</a>
+        <div className="socials">
+          <SocialIcon
+            url="https://instagram.com"
+            href="https://www.instagram.com/physicssoc/"
+            bgColor="#292b2c"
+            fgColor="aliceblue"
+          />
+
+          <SocialIcon
+            url="https://email.com"
+            href="mailto:physicsoc@socs.universityofgalway.ie"
+            bgColor="#292b2c"
+            fgColor="aliceblue"
+          />
+
+          <SocialIcon
+            url="https://discord.com"
+            href="https://tr.ee/bnTyfqSaEV"
+            bgColor="#292b2c"
+            fgColor="aliceblue"
+          />
+        </div>
       </div>
     </>
   );

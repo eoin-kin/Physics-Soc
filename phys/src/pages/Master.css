@@ -9,7 +9,7 @@ body {
   align-items: center;
   margin-left: 10vw;
   margin-right: 10vw;
-  box-shadow: 0.5rem 0.5rem #999595;
+  box-shadow: 0.5rem 0.5rem #4a4a4a;
 }
 .floater h1 {
   text-decoration: underline;

@@ -1,5 +1,5 @@
 body {
-  background-color: #333;
+  background-color: #34383b;
 }
 .floater {
   background-color: aliceblue;
@@ -9,13 +9,22 @@ body {
   align-items: center;
   margin-left: 10vw;
   margin-right: 10vw;
-  box-shadow: 0.5rem 0.5rem #4a4a4a;
+  box-shadow: 0.5rem 0.5rem #212121;
+  border-radius: 3rem;
 }
 .floater h1 {
   text-decoration: underline;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: -0.1rem;
 }
 .floater p {
   text-align: center;
+  font-size: large;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-weight: bold;
 }
 .floater img {
   width: 90%;

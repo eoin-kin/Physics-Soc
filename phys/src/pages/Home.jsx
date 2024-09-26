@@ -3,6 +3,8 @@ import Header from "../components/Header";
 import "./Home.css";
 import "./Master.css";
 import Contact from "../components/Contact";
+import { Member } from "../components/member";
+import Container from "react-bootstrap/esm/Container";
 export const Home = () => {
   return (
     <>
@@ -19,46 +21,21 @@ export const Home = () => {
       <br></br>
       <div className="floater">
         <h1>Our Committee</h1>
-        <img src="phys com.PNG" />
-        <ul>
-          <li>
-            <b>Auditor:</b> Raven Blok
-          </li>
-          <li>
-            <b>Vice-Auditor:</b> Aisling Kinsella
-          </li>
-          <li>
-            <b>Treasurer:</b> Elisabeth Pfeiffer
-          </li>
-          <li>
-            <b>Vice-Treasurer:</b> Oskar Sokol
-          </li>
-          <li>
-            <b>Secretary:</b> Emilijus Bielis
-          </li>
-          <li>
-            <b>Special Events and Safety Officer:</b> Niamh O'Brien
-          </li>
-          <li>
-            <b>Engineering Liason:</b> Adam Gaughran
-          </li>
-          <li>
-            <b>Ordinary Committee Member:</b> Aoife Farren
-          </li>
-          <li>
-            <b>Ordinary Committee Member:</b> Chichi Agwaraonye
-          </li>
-          <li>
-            <b>Ordinary Committee Member:</b> Tom Browne
-          </li>
-          <li>
-            <b>Ordinary Committee Member:</b> Eoin Kenny
-          </li>
-          <li>
-            <b>Researcher:</b> Jonathan O'Connor
-          </li>
-        </ul>
+        <img src="phys com.PNG" className="com_img" />
       </div>
+      <div style={{ justifyContent: "center" }}>
+        <Container>
+          <Member
+            com_member={{
+              img: "phys com.PNG",
+              name: "Aisling",
+              position: "Auditor",
+              pronouns: "she/they",
+            }}
+          ></Member>
+        </Container>
+      </div>
+
       <br />
       <Contact />
     </>
